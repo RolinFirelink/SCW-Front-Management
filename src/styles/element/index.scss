@@ -1,0 +1,10 @@
+//定制颜色
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #FFA500,
+    ),
+  ),
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
